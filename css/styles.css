@@ -79,7 +79,6 @@ body {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  
 }
 .nav-link {
   display: block;
@@ -90,23 +89,23 @@ body {
   color: var(--main-textcolor);
   padding: 10px;
   position: relative;
- }
+}
 .site-nav .item + .item {
   margin-left: 50px;
 }
 .site-nav .nav-active-link {
   color: #2196f3;
 }
-.site-nav .nav-active-link::after{
-    content: "";
-      background: var(--accent-color);
-      width: calc(100% - 20px);
-      height: 4px;
-      position: absolute;
-      top: auto;
-      bottom: -23px;
-      left: 10px;
-      border-radius: 2px;
+.site-nav .nav-active-link::after {
+  content: "";
+  background: var(--accent-color);
+  width: calc(100% - 20px);
+  height: 4px;
+  position: absolute;
+  top: auto;
+  bottom: -23px;
+  left: 10px;
+  border-radius: 2px;
 }
 .contact-list {
   display: flex;
@@ -132,7 +131,6 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  
 }
 .list .contact:hover,
 .list .contact:focus {
@@ -313,14 +311,14 @@ body {
   color: var(--second-textcolor);
 }
 .features-list .features-icons {
-  background-color: #F5F4FA;
-    width: 100%;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-} 
+  background-color: #f5f4fa;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
 /* Чим ми займаємось */
 .doing {
   background-color: var(--main-background-color);
@@ -341,24 +339,24 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-textcolor);
 }
-.doing-item{
+.doing-item {
   position: relative;
 }
-.doing-description{
+.doing-description {
   display: flex;
   justify-content: center;
   align-items: center;
-position: absolute;
-width: 100%;
-height: 70px;
-bottom: 0;
-text-transform: uppercase;
-font-weight: 700;
-font-size: 14px;
-line-height: calc( 16 / 14 );
-letter-spacing: 0.03em;
-color: var(--main-background-color);
-background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
+  background: rgba(47, 48, 58, 0.8);
 }
 img {
   display: block;
@@ -439,12 +437,11 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--icon-color); /*задаем цвет иконки*/
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-list .social-icon {
   fill: currentColor; /*иконка наследует цвет от родительского элемента social-link */
-
 }
 .team-list .social-link:hover,
 .team-list .social-link:focus {
@@ -520,9 +517,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-textcolor);
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-              color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-              box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-menu > .item:not(:last-child) {
   margin-right: 8px;
@@ -544,29 +541,29 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  background: var(--main-background-color); 
+  background: var(--main-background-color);
 }
-.portfolio-wrapper{
+.portfolio-wrapper {
   position: relative;
-overflow: hidden;
+  overflow: hidden;
 }
 
-.portfolio-description{
+.portfolio-description {
   position: absolute;
   font-weight: 400;
-    font-size: 18px;
-    line-height: calc(28 / 18);
-    letter-spacing: 0.03em;  
-    color: #FFFFFF;
-    background: rgba(33, 150, 243, 0.9);
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
   top: 0;
   bottom: 0;
   padding: 63px 24px;
-   transform: translateY(100%);
- transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item:hover .portfolio-description{
-   transform: translateY(0);
+.portfolio-item:hover .portfolio-description {
+  transform: translateY(0);
 }
 .portfolio-link {
   width: 100%;
@@ -595,7 +592,7 @@ overflow: hidden;
 .portfolio-img {
   margin: 0px;
   display: block;
-  }
+}
 .item-title {
   margin-top: 0px;
   margin-bottom: 4px;
@@ -616,7 +613,7 @@ overflow: hidden;
 }
 /* Модальне вікно */
 
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   right: 0;
@@ -625,22 +622,23 @@ overflow: hidden;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 500ms, visibility 500ms;
 }
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: scale(0);
 }
-.modal{
+.modal {
   position: absolute;
   width: 528px;
-    height: 581px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform 1000ms;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+  height: 581px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 1000ms;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
-.modal .close-sign{
+.modal .close-sign {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -650,12 +648,12 @@ overflow: hidden;
   right: 8px;
   width: 30px;
   height: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  }
-  .is-hidden{
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-  }
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
